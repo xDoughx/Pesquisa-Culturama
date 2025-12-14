@@ -35,7 +35,7 @@
         <input id="email" type="email" name="userEmail" required>
             <br>
         <label for="phonenumber">Número de telefone</label>
-        <input id="phonenumber" type="tel" name="userPhoneNumber" pattern="[0-9] {11}" placeholder="DDD + número sem espaços ou hífen">
+        <input id="phonenumber" type="tel" name="userPhoneNumber" pattern="[0-9]{11}" placeholder="DDD + número sem espaços ou hífen">
             <br>
 
         <label for="image">Upload de foto</label>
@@ -57,7 +57,6 @@
 
         <label for="marital">Estado Civil:</label>
         <select id="marital" name="maritalStatus">
-
             <option value="notInformed">Selecione...</option>
             <option value="solteiro">Solteiro</option>
             <option value="casado">Casado</option>
@@ -163,16 +162,16 @@
         <legend>Opinião</legend>
         <p>O que você acha da qualidade no nosso serviço?</p>
         <input type="radio" name="userRating" id="ruim" value="ruim">
-        <label for="rating">Ruim</label>
+        <label for="ruim">Ruim</label>
 
         <input type="radio" name="userRating" id="neutro" value="neutro">
-        <label for="rating">Regular</label>
+        <label for="neutro">Regular</label>
 
         <input type="radio" name="userRating" id="bom" value="bom">
-        <label for="rating">Bom</label>
+        <label for="bom">Bom</label>
 
         <input type="radio" name="userRating" id="otimo" value="otimo">
-        <label for="rating">Ótimo</label>
+        <label for="otimo">Ótimo</label>
         <br>
 
         <label for="openComment">Comentário Aberto</label>
