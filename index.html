@@ -59,8 +59,9 @@
             <option value="divorciado">Divorciado</option>
             <option value="casado">União estável</option>
         </select>
+    <br>
 <label for="state">Estado:</label>
-<select id="state" name="userState" required>
+<select id="state" name="userState">
 
 <option value="acre">Acre</option>
 	
@@ -118,7 +119,7 @@
 </select>
 
     <label for="city">Cidade</label>
-    <input id="city" type="text" name="userCity" required>
+    <input id="city" type="text" name="userCity">
 
     </fieldset>
 
@@ -176,15 +177,16 @@
     <fieldset>
         <legend>Consentimento</legend>
 
-        <input type="checkbox" name="userLgpd" id="userLgpdTerm" value="accepted">
+        <input type="checkbox" name="userLgpd" id="userLgpdTerm" value="accepted" required>
         <label for="userLgpdTerm">Eu aceito participar da pesquisa</label>
         <br>
         <input type="checkbox" name="userGetResult" id="getResult" value="accepted">
-        <label for="userLgpdTerm">Desejo receber novidades no meu email</label>
+        <label for="getResult">Desejo receber novidades no meu email</label>
 
     </fieldset>
 
     <button type="submit" >Enviar</button>
+    <button type="reset" >Limpar</button>
     </form>
 </body>
 </html>
