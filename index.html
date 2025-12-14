@@ -155,7 +155,7 @@
     
     <fieldset>
         <legend>Opinião</legend>
-        
+
         <input type="radio" name="userRating" id="ruim" value="ruim">
         <label for="rating">Ruim</label>
 
@@ -170,9 +170,17 @@
         <br>
 
         <label for="openComment">Comentário Aberto</label>
-        <textarea name="userComment" id="openComment" placeholder="Digite aqui sua opinião...">
+        <textarea name="userComment" id="openComment" placeholder="Digite aqui sua opinião...">  </textarea>
+    </fieldset>
 
-        </textarea>
+    <fieldset>
+        <legend>Consentimento</legend>
+
+        <input type="checkbox" name="userLgpd" id="userLgpdTerm" value="accepted">
+        <label for="userLgpdTerm">Eu aceito participar da pesquisa</label>
+        <br>
+        <input type="checkbox" name="userGetResult" id="getResult" value="accepted">
+        <label for="userLgpdTerm">Desejo receber novidades no meu email</label>
 
     </fieldset>
 
