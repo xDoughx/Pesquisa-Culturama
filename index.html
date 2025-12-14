@@ -42,16 +42,28 @@
 
         <input type="radio" name="userGender" value="feminino">
         <label for="userGender">Feminino</label>
-        <button type="submit" >Enviar</button>
         
         <input type="radio" name="userGender" value="masculino">
         <label for="userGender">Masculino</label>
 
         <input type="radio" name="userGender" value="notInformed">
         <label for="userGender">Prefiro não informar</label>
-        
+        <br>
+
+        <label for="maritalStatus">Estado Civil:</label>
+        <select name="maritalStatus">
+
+            <option value="notInformed">Selecione...</option>
+            <option value="solteiro">Solteiro</option>
+            <option value="casado">Casado</option>
+            <option value="divorciado">Divorciado</option>
+            <option value="casado">União estável</option>
+
+        </select>
+
     </fieldset>
 
+    <button type="submit" >Enviar</button>
     </form>
 </body>
 </html>
