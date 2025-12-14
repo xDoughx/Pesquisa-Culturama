@@ -4,16 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/culturama-favico.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Work+Sans&display=swap" rel="stylesheet">
     <title>Pesquisa Culturama</title>
 </head>
 <body>
+    <main>
     <header>
-        <h1>Pesquisa Online</h1>
+        <img src="img/logo-culturama.png" alt="logo culturama">
+        <h1>Pesquisa de Opinião</h1>
     </header>
         
         <fieldset>
             <legend>Dados Pessoais</legend>
-            <form action="" method="get">
+            <form action="sucesso.html" method="get">
         
             <label for="name">Nome</label>
             <input id="name" type="text" name="userName" required>
@@ -40,10 +46,8 @@
     <fieldset>
         <legend>Perfil</legend>
         <p>Genêro</p>
-
         <input id="fem" type="radio" name="userGender" value="feminino">
         <label for="fem">Feminino</label>
-        
         <input id="masc" type="radio" name="userGender" value="masculino">
         <label for="masc">Masculino</label>
 
@@ -157,7 +161,7 @@
     
     <fieldset>
         <legend>Opinião</legend>
-
+        <p>O que você acha da qualidade no nosso serviço?</p>
         <input type="radio" name="userRating" id="ruim" value="ruim">
         <label for="rating">Ruim</label>
 
@@ -189,5 +193,6 @@
     <button type="submit" >Enviar</button>
     <button type="reset" >Limpar</button>
     </form>
+    </main>
 </body>
 </html>
