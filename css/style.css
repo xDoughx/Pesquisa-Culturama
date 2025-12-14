@@ -26,6 +26,7 @@ img {
 
 h1 {
     font-family: "Fjalla One", sans-serif;
+    text-align: center;
 }
 
 form {
@@ -77,7 +78,7 @@ input [type ="checkbox"] {
     width: auto;
 }
 
-input [type="color"]{
+input[type="color"]{
     width: 40px;
     padding: 0 5px;
 }
