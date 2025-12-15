@@ -69,6 +69,11 @@ textarea {
     border-radius: 5px;
 }
 
+small {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
 textarea {
     min-height: 100px;
 }
@@ -76,6 +81,10 @@ textarea {
 input[type ="radio"],
 input[type ="checkbox"] {
     width: auto;
+}
+
+input[type="tel"]{
+    margin-bottom: 0;
 }
 
 input[type="color"]{
